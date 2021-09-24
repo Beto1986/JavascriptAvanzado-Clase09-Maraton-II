@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Avanzado - Maraton 2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div>
+        <p>Ejercicio 1</p>
+        <button id="apagado" value="0">Apagado</button>
+        <button id="encendido" value="1">Encendido</button>
+    </div>
+    <br>
+    <br>
+    <div>
+        <img src="img/lampara-apagada.jpg" id="imagenlampara" width="200px" height="200px">
+    </div>
+    <br>
+    <br>
+    <div>
+        <p>Ejercicio 2</p>
+        <div id="cuadrado">
+        </div>
+        <br>
+        <div>
+            <input type="text" id="informarVeces" value="0" readonly>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <div>
+        <p>Ejercicio 3</p>
+    </div>
+    <br>
+    <button id="botonusuario">Mostrar Usuario</button>
+    <br>
+    <br>
+    <div>
+        <label for="nombre">Su nombre es:</label>
+        <input type="text" id="nombre" placeholder="Nombre" readonly>
+    </div>
+    <br>
+    <div>
+        <label for="apellido">Su apellido es:</label>
+        <input type="text" id="apellido" placeholder="Apellido" readonly>
+    </div>
+    <br>
+    <div>
+        <label for="direccion">Su dirección es:</label>
+        <input type="text" id="direccion" placeholder="Dirección" readonly>
+    </div>
+    <br>
+    <div>
+        <label for="mail">Su mail es:</label>
+        <input type="text" id="mail" placeholder="Mail" readonly>
+    </div>
+    <br>
+    <br>
+    <div>
+        <p>Ejercicio 4</p>
+        <h3>Piedra, papel o tijera</h3>
+        <button id="piedra" value="0">Piedra</button>
+        <button id="papel" value="1">Papel</button>
+        <button id="tijera" value="2">Tijera</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>Ejercicio 5 - CRONOMETRO</p>
+
+    <div id="contenedor">
+        <span class="reloj" id="horasReloj">00</span>
+        <span class="reloj" id="minutosReloj">:00</span>
+        <span class="reloj" id="segundosReloj">:00</span>
+        <span class="reloj" id="centesimasReloj">:00</span>
+        <button class="boton" id="iniciar" value="Iniciar" onclick="botonIniciar();">Iniciar</button>
+        <button class="boton" id="pausar" value="Pausar" onclick="botonPausar();" disabled>Pausar</button>
+        <button class="boton" id="continuar" value="Continuar" onclick="botonIniciar();" disabled>Continuar</button>
+        <button class="boton" id="reiniciar" value="Reiniciar" onclick="botonReiniciar();" disabled>Reiniciar</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>

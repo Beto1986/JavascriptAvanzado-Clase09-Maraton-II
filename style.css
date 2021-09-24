@@ -1,0 +1,48 @@
+#cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#informarVeces {
+    width: 200px;
+}
+
+input {
+    width: 250px;
+}
+
+
+/* CRONOMETRO*/
+
+#contenedor {
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+}
+
+.reloj {
+    font-size: 50px;
+    margin-left: 13px;
+    font-family: Courier, sans-serif;
+}
+
+.boton {
+    outline: none;
+    border: 1px solid black;
+    width: 103px;
+    height: 25px;
+    text-shadow: 0px -1px 1px black;
+    font-size: 15px;
+    border-radius: 3px;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.boton:active {
+    background-image: linear-gradient(#c3f1f5e7, #6bf2f7);
+}
+
+.boton:hover {
+    box-shadow: 0px 0px 10px #71e4da;
+}
